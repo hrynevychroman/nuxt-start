@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="project-logo">
+  <img src="https://svgl.app/library/nuxt.svg" width="100" alt="project-logo">
 </p>
 <p align="center">
     <h1 align="center">NUXT-START</h1>
@@ -175,23 +175,7 @@ Nuxt-start is a comprehensive open-source project that leverages the power of Nu
 >
 > 3. Install the dependencies:
 > ```console
-> $ npm install
-> ```
-
-###  Usage
-
-<h4>From <code>source</code></h4>
-
-> Run nuxt-start using the command below:
-> ```console
-> $ npm run build && node dist/main.js
-> ```
-
-###  Tests
-
-> Run the test suite using the command below:
-> ```console
-> $ npm test
+> $ pnpm install
 > ```
 
 ---
@@ -227,7 +211,7 @@ Contributions are welcome! Here are several ways you can contribute:
 4. **Make Your Changes**: Develop and test your changes locally.
 5. **Commit Your Changes**: Commit with a clear message describing your updates.
    ```sh
-   git commit -m 'Implemented new feature x.'
+   git commit -m 'Conventional commit message'
    ```
 6. **Push to github**: Push the changes to your forked repository.
    ```sh
@@ -251,7 +235,7 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the License. For more details, refer to the [LICENSE](https://github.com/romanhrynevych/nuxt-start/blob/main/LICENSE) file.
 
 ---
 
