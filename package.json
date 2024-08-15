@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.7.1",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare && npx simple-git-hooks",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "typecheck": "npx nuxi typecheck",
+    "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules",
+    "commitlint": "commitlint --edit"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.5.0",
+    "@nuxt/icon": "^1.4.5",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia/nuxt": "^0.5.3",
+    "@vee-validate/nuxt": "^4.13.2",
+    "@vueuse/core": "^10.11.1",
+    "@vueuse/nuxt": "^10.11.1",
+    "nuxt": "^3.12.4",
+    "pinia": "^2.2.1",
+    "radix-vue": "^1.9.4",
+    "tailwindcss": "^3.4.10",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.25.1",
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "eslint": "9.5.0",
+    "lint-staged": "^15.2.9",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.5.4",
+    "vue-tsc": "^2.0.29"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm commitlint $1",
+    "pre-commit": "pnpm typecheck && pnpm lint-staged"
+  }
+}
