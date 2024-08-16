@@ -26,7 +26,7 @@ jobs:
           cd ${{ env.ORIGINAL_REPO_NAME }}
           git remote add ${{ env.ORIGINAL_REPO_NAME }} https://${{ env.GIT_USERNAME }}:${{ secrets.PAT }}@github.com/${{ env.GIT_USERNAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
           git remote update
-          git merge ${{ env.ORIGINAL_REPO_NAME }}/main
+          git merge ${{ env.ORIGINAL_REPO_NAME }}/main --allow-unrelated-histories
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
