@@ -14,7 +14,8 @@
     "lint:fix": "eslint --fix .",
     "typecheck": "npx nuxi typecheck",
     "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "release": "bumpp --commit --push --tag"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.0",
@@ -39,6 +40,7 @@
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "bumpp": "^9.5.1",
     "eslint": "9.5.0",
     "lint-staged": "^15.2.9",
     "simple-git-hooks": "^2.11.1",
