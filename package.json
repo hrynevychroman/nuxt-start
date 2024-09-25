@@ -15,10 +15,9 @@
     "typecheck": "npx nuxi typecheck",
     "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules",
     "commitlint": "commitlint --edit",
-    "release": "pnpm release:check && pnpm release:version",
+    "release": "pnpm release:check && pnpm release:changelog",
     "release:check": "pnpm typecheck && pnpm lint",
-    "release:changelog": "changelogen --output CHANGELOG.md",
-    "release:version": "bumpp package.json CHANGELOG.md --execute=\"pnpm release:changelog\" --all --no-push"
+    "release:changelog": "changelogen --release"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.7",
