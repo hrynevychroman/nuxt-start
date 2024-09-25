@@ -15,7 +15,7 @@
     "typecheck": "npx nuxi typecheck",
     "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules",
     "commitlint": "commitlint --edit",
-    "bump": "bumpp package.json CHANGELOG.md --tag --no-push --no-commit",
+    "bump": "bumpp --no-push",
     "changelog": "changelogen --output CHANGELOG.md"
   },
   "dependencies": {
