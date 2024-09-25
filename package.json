@@ -15,7 +15,8 @@
     "typecheck": "npx nuxi typecheck",
     "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules",
     "commitlint": "commitlint --edit",
-    "release": "bumpp --commit --push --tag"
+    "release": "bumpp --commit --push --tag",
+    "changelog": "changelogen --output CHANGELOG.md"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.7",
@@ -41,6 +42,7 @@
     "@commitlint/config-conventional": "^19.5.0",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
     "bumpp": "^9.5.2",
+    "changelogen": "^0.5.7",
     "eslint": "9.5.0",
     "lint-staged": "^15.2.10",
     "simple-git-hooks": "^2.11.1",
