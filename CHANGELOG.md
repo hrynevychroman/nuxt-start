@@ -1,4 +1,16 @@
 
+## v0.0.8
+
+[compare changes](https://github.com/romanhrynevych/nuxt-start/compare/v0.0.7...v0.0.8)
+
+### 🩹 Fixes
+
+- **release:** Add `--push` flag ([a2b338c](https://github.com/romanhrynevych/nuxt-start/commit/a2b338c))
+
+### ❤️ Contributors
+
+- Hrynevychroman <hrynevych.romann@gmail.com>
+
 ## v0.0.7
 
 [compare changes](https://github.com/romanhrynevych/nuxt-start/compare/v0.0.6...v0.0.7)
