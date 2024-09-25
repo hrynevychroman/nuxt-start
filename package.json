@@ -17,7 +17,7 @@
     "commitlint": "commitlint --edit",
     "release": "pnpm release:check && pnpm release:changelog",
     "release:check": "pnpm typecheck && pnpm lint",
-    "release:changelog": "changelogen --release"
+    "release:changelog": "changelogen --release --push"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.7",
