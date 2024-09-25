@@ -1,4 +1,16 @@
 
+## v0.0.7
+
+[compare changes](https://github.com/romanhrynevych/nuxt-start/compare/v0.0.6...v0.0.7)
+
+### 🩹 Fixes
+
+- **deps:** Add `@vee-validate/zod` ([bbddfcd](https://github.com/romanhrynevych/nuxt-start/commit/bbddfcd))
+
+### ❤️ Contributors
+
+- Hrynevychroman <hrynevych.romann@gmail.com>
+
 ## v0.0.6
 
 [compare changes](https://github.com/romanhrynevych/nuxt-start/compare/v0.0.5...v0.0.6)
